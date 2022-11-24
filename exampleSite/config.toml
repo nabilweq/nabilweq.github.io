@@ -1,5 +1,5 @@
-baseURL = "https://gokarna-hugo.netlify.app"
-title = "Gokarna"
+baseURL = ""
+title = "Nabeel Muhammed"
 theme = "gokarna"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -10,9 +10,9 @@ enableRobotsTXT = true
 pygmentsStyle = "monokai"
 
 [params]
-  footer = "The Marauders"
-  description = "Sky above, sand below and peace within"
-  avatarURL = "/images/avatar.webp"
+  footer = "Portfolio"
+  description = "Engineering student, Freelance web developer and a socio hooman"
+  avatarURL = "/images/photo.jpg"
   AvatarAltText = "avatar"
   avatarSize = "size-m"
   customHeadHTML = """
@@ -36,13 +36,11 @@ pygmentsStyle = "monokai"
     </script>
   """
   socialIcons = [
-    {name = "twitter", url = "https://example.com"},
-    {name = "linkedin", url = "https://example.com"},
-    {name = "stackoverflow", url = "https://example.com"},
-    {name = "dribbble", url = "https://example.com"},
-    {name = "instagram", url = "https://example.com"},
-    {name = "twitch", url = "https://example.com"},
-    {name = "email", url = "mailto:example@example.com"}
+    {name = "twitter", url = "https://twitter.com/Nabeeltki"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/muhammed-nabeel-tk-7598a7199/"},
+    {name = "facebook", url = "https://www.facebook.com/nabeel.muhammedtnk"},
+    {name = "instagram", url = "https://instagram.com/nabilweq"},
+    {name = "email", url = "mailto:muhammednabeeltkanr@gmail.com"}
   ]
   metaKeywords = ["blog", "gokarna", "hugo"]
 
@@ -66,28 +64,10 @@ pygmentsStyle = "monokai"
     weight = 3
 
   [[menu.main]]
-    name = "Tags"
-    pre = "<span data-feather='tag'></span>"
-    url = "/tags/"
-    weight = 4
-
-  [[menu.main]]
     identifier = "github"
     pre = "<span data-feather='github'></span>"
-    url = "https://github.com/526avijitgupta/gokarna"
+    url = "https://github.com/nabilweq"
     weight = 5
-
-  [[menu.main]]
-    identifier = "buymeacoffee"
-    pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
-    weight = 6
-
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
-    weight = 7
 
 [markup]
   [markup.tableOfContents]
